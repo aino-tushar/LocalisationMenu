@@ -28,6 +28,8 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toast.makeText(MainActivity.this, "Mahesh Toast Code", Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "Tushar Toast Code", Toast.LENGTH_LONG).show();
+
 
         spinnerctrl = (Spinner) findViewById(R.id.spinner1);
         spinnerctrl.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
